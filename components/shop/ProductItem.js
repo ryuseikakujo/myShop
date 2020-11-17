@@ -1,9 +1,14 @@
 import React from 'react'
-import { Text, View, StyleSheet, Image, Button, Platform } from 'react-native'
 import {
-  TouchableNativeFeedback,
+  Text,
+  View,
+  StyleSheet,
+  Image,
+  Button,
+  Platform,
   TouchableOpacity,
-} from 'react-native-gesture-handler'
+  TouchableNativeFeedback,
+} from 'react-native'
 import Colors from '../../constants/Colors'
 
 const ProductItem = (props) => {

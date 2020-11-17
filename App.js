@@ -2,12 +2,15 @@ import React, { useState } from 'react'
 import { Provider } from 'react-redux'
 import { combineReducers, createStore } from 'redux'
 import ShopNavigator from './navigation/ShopNavigator'
-import ProductsReducer from './store/reducers/products'
 import { AppLoading } from 'expo'
 import * as Font from 'expo-font'
 
+import productsReducer from './store/reducers/products'
+import cartReducer from './store/reducers/cart'
+
 const rootReducer = combineReducers({
-  products: ProductsReducer,
+  products: productsReducer,
+  cart: cartReducer,
 })
 
 const store = createStore(rootReducer)
