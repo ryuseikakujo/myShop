@@ -1,0 +1,3 @@
+export default DELETE_PRODUCT = 'DELETE_PRODUCT'
+export default CREATE_PRODUCT = 'CREATE_PRODUCT'
+export default UPDATE_PRODUCT = 'UPDATE_PRODUCT'
